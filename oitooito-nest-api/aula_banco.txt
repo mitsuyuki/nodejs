@@ -1,0 +1,18 @@
+npm install -g @nestjs/cli
+
+nest new oitooito-nest-api
+
+criar driver.domain.ts ----- classe Driver
+
+nest generate service modules/driver/DriverService
+
+nest generate controller modules/driver/Driver
+
+criar driver.module.ts
+
+npm install typeorm mysql @nestjs/typeorm --save
+
+criar driver.schema.ts
+
+
+
